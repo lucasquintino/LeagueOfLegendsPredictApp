@@ -1,0 +1,178 @@
+body {
+  background: #0a0e13;
+}
+.imgTeam {
+  height: 75px;
+  width: 75px;
+  margin-right: 10px;
+}
+.divTeam {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+
+  width: 100%;
+  margin-right: 20px
+}
+.divTeam2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 20px
+  }
+.divMatch {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+.vs {
+  margin-right: 20px;
+  font-family: "Poppins";
+  font-weight: bold;
+  line-height: 1.42857143;
+  color: #8fa3b0;
+  padding: 12px 8px;
+  vertical-align: middle;
+  font-size: 2.6125rem;
+}
+.teamName {
+    margin: 0 5%;
+    font-family: "Poppins";
+    font-weight: semi-bold;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    font-size: 1.9125rem;
+    min-width: fit-content;
+    width: max-content;
+
+}
+.tableBodyRowHover:hover{
+  cursor: pointer;
+  padding: 0;
+  transition: background-color .25s ease-out,width .25s ease-out,margin .25s ease-out,padding .25s ease-out;
+  background-color: #252c32;
+}
+.tableBodyRow2:hover{
+  padding: 0;
+  transition: background-color .25s ease-out,width .25s ease-out,margin .25s ease-out,padding .25s ease-out;
+  background-color: #252c32;
+}
+.prediction{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 0.2px solid rgba(204, 204, 204, 0.205);
+
+  height: 75.8px;
+  color: white;
+}
+.result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #030506;
+  border-right: 0.2px solid rgba(204, 204, 204, 0.205);
+  height: 75.8px;
+  width: 33.2%;
+  font-size: 16px;
+  font-weight: bold;
+border-bottom: 0.2px solid rgba(204, 204, 204, 0.205);
+}
+
+.team1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 0.2px solid rgba(204, 204, 204, 0.205);
+  flex-direction: column;
+  height: 75.8px;
+  width: 33.4%;
+
+}
+.predicted{
+  background-color: #5cb85c;
+  border: 0.2px solid rgba(204, 204, 204, 0.397);
+  transition: background 0.33s
+}
+.notPredicted{
+  background-color: #EE2737;
+  border: 0.2px solid rgba(204, 204, 204, 0.397);
+}
+.team1 .teamName{
+  font-family: "Poppins";
+  font-weight: bold;
+  line-height: 1.42857143;
+  vertical-align: middle;
+  font-size: 1.6125rem;
+}
+.team1 .imgTeam {
+  height: 45px;
+  width: 45px;
+  margin: 0;
+}
+.team2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 75.8px;
+  width: 33.4%;
+}
+
+.team2 .teamName{
+  font-family: "Poppins";
+  font-weight: bold;
+  line-height: 1.42857143;
+  vertical-align: middle;
+  font-size: 1.6125rem;
+}
+.team2 .imgTeam {
+  height: 45px;
+  width: 45px;
+  margin: 0;
+}
+.selecteD{
+  background: #000;
+   cursor: pointer;
+  padding: 0;
+  transition: background-color .25s ease-out,width .25s ease-out,margin .25s ease-out,padding .25s ease-out;
+}
+.matchNumber{
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row;
+  width: max-content;
+
+}
+.matchTime{
+ 
+  margin-bottom: -4px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+
+}
+.matchTime .label{
+
+  width: 90px;
+
+
+}
+.type{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  height: 48px;
+  color: white;
+  font-size: 16px;
+  width: 33.4%;
+}
